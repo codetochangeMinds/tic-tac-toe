@@ -1,10 +1,10 @@
 import './App.css';
-import Button from './components/button';
+import Board from './components/board/board';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <Board />
     </div>
   );
 }
