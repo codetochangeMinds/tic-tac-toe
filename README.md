@@ -8,7 +8,7 @@
 2. Import board component in the App component.
 
 # TODO-3 
-1. Update the value of board cells on the button click.   
+1. Update the value of cells on the button click.   
 
 # TODO-4
 1. Update the value of the board cells basis turn.  
