@@ -4,10 +4,22 @@ import './styles.css'
 
 export default function Board() {
     const [cells, setcells] = useState(Array(9).fill(null)); 
+    const [turn, setTurn] = useState(0)
     
     function handleClick(i) {
+      if (cells[i]) {
+        return;
+      }
+
       const nextSquares = cells.slice();
-      nextSquares[i] = "X";
+      if (turn === 0) {
+        nextSquares[i] = 'X';
+        setTurn(1);
+      } else {
+        nextSquares[i] = 'O';
+        setTurn(0)
+      }
+      
       setcells(nextSquares);
     }
 
