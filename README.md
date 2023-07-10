@@ -12,9 +12,12 @@
 2. Install react-dev-tool chrome extension for debugging.  
 
 # TODO-4
+1. Update the value of the board cells from board component. 
+
+# TODO-5
 1. Update the value of the board cells basis turn.  
 
-# TODO-5 
+# TODO-6
 1. Calculate the winner. 
 2. Stop the game once the winner is declared. 
 3. Display the winner player.   
