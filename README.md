@@ -8,7 +8,8 @@
 2. Import board component in the App component.
 
 # TODO-3 
-1. Update the value of cells on the button click.   
+1. Update the value of cells on the button click.  
+2. Install react-dev-tool chrome extension for debugging.  
 
 # TODO-4
 1. Update the value of the board cells basis turn.  
